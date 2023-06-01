@@ -7,23 +7,51 @@
         <script src="../../JavaScript/main.js" defer></script>
     </head>
     <body>
-        <header class="banner">
+        <div class="background-fade"></div>
+
+
+        <header>
+            <button class="menu-toggle">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+            </button>
             <nav class="navbar">
-                <ul class="nav">
-                    <li><a href="../../../index.html">Home</a></li>
-                    <li><a href="../Community/Community.html">Community</a></li>
-                    <li><a href="../Competition/competition.html">Competition</a></li>
-                    <li><a href="../Grading/grading.html">Grading</a></li>
-                    <li><a href="../TKD wiki/tkd.html">TKD Wiki</a></li>
-                    <li><a href="../Membership and Gear/membership.html">Membership and Gear</a></li>
-                    <li><a href="../Archive/Archive.html">Archive</a></li>
-                </ul>
+              <ul class="nav">
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../Community/Community.html">Community</a></li>
+                <li><a href="../Competition/competition.html">Competition</a></li>
+                <li><a href="../Grading/grading.html">Grading</a></li>
+                <li><a href="../TKD wiki/tkd.html">TKD Wiki</a></li>
+                <li><a href="../Membership and Gear/membership.html">Membership and Gear</a></li>
+                <li><a href="../Archive/Archive.html">Archive</a></li>
+              </ul>
             </nav>
-        </header>
+          </header>
+          
+          
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            var menuToggle = document.querySelector('.menu-toggle');
+            var navbar = document.querySelector('.navbar');
+
+            menuToggle.addEventListener('click', function() {
+                navbar.classList.toggle('expanded');
+                navbar.classList.toggle('collapsed');
+            });
+            });
+        </script>
+
        <div class="title">
          <h1>Schedule</h1>
        </div>
+       <div class="logo">
+        <img src="../../assets/gsLogo.png" alt="GS Logo">
+        <img src="../../assets/ualLogo.png" alt="UAL Logo">
+       </div>
+
        <main>
+        <div class="info-container"> 
         <section id="monday">
             <div class ="subheading">
                 <h2>Monday</h2>
@@ -31,9 +59,9 @@
             <article>
                 <img>
                 <p>On monday class runs from 7-8:30 pm and is located at <a href="https://www.gold.ac.uk/" target="_blank">Goldsmiths's</a> Richard Hoggart building,<br>
-                in room RHB300.This class is lead by the coaches from <a href="https://www.aquilataekwondo.com/" target="_blank">Aquilla</a>and varies between being a traditional poomsae class<br>
+                in room RHB300.This class is lead by the coaches from <a href="https://www.aquilataekwondo.com/" target="_blank">Aquilla</a> and varies between being a traditional poomsae class<br>
                 or a sparring class. afterwards there is a society social held at a local pub(drinking is not mandatory).</p>
-            <h3>Adress</h3>
+            <h3>Address</h3>
             <p><a href="https://www.google.com/maps/place/Goldsmiths,+University+of+London/@51.4742772,-0.035417,15z/data=!4m6!3m5!1s0x487602f81f1bd2cf:0xeb2cff5d2300d7f8!8m2!3d51.4742772!4d-0.035417!16zL20vMDE1d3lf?entry=ttu" target="_blank">8 Lewisham Way, London SE14 6NW</a></p>
            </article>
         </section>
@@ -47,7 +75,7 @@
                    is student led, meaning if there is a specific focus you wish to train (poomsae,sparring,kicks,punches,etc.),<br>
                    let the commitee member leading the class know and they will do their best to accomodate your request. In the past<br>
                    we have even ran classes on grappling.</p>
-                 <h3>Adress</h3>
+                 <h3>Address</h3>
                  <p><a href="https://www.google.com/search?client=opera-gx&hs=Xaq&tbs=lf:1,lf_ui:4&tbm=lcl&sxsrf=APwXEdfc9emRpgRGr5czpJeRXU9q84g6qQ:1685562120969&q=ual+london+college+of+fashion&rflfq=1&num=10&rldimm=7173174853667483716&ved=2ahUKEwjmht6bqKD_AhVZhlwKHUaJCDkQu9QIegQIExAL#rlfi=hd:;si:;mv:[[51.52379199966633,-0.10340246575258005],[51.51210860309359,-0.12899073975465525]]" target="_blank">272 High Holborn, London WC1V 7EY</a></p>
             </article>
         </section>
@@ -61,10 +89,17 @@
                    friday classes are taught by the <a href="https://www.aquilataekwondo.com/" target="_blank">Aquilla</a> coaches and run from 6-8pm. The first hour is  traditional Taekwondo, mostly poomsae,<br>
                    the second hour is sparring, there is still a smaller poomsae class that runs in this hour however. This class is not student exclusive<br>
                    meaning you'll be training along side other members of <a href="https://www.aquilataekwondo.com/" target="_blank">Aquilla Taekwondo.</a></p>
-                <h3>Adress</h3>
+                <h3>Address</h3>
                 <p><a href="https://www.google.com/maps/place/Prendergast+Vale+School/@51.463598,-0.0159193,15z/data=!4m6!3m5!1s0x487602659506cb0b:0xb4c56d83d11f9df!8m2!3d51.463598!4d-0.0159193!16s%2Fm%2F0wztnw8?entry=ttu" target="_blank">Elmira St, London SE13 7BN</a></p>
             </article>
         </section>
+
        </main>
+    </div>
+    <div class="top-bar"></div>
+    <div class="bottom-bar"></div>
+
+
+    
     </body>
 </html>
