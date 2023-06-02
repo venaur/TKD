@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Community</title>
+        <link rel="stylesheet" href="../../CSS/styles.css">
+        <link rel="stylesheet" href="../../CSS/competition.css">
+        <script src="../../JavaScript/main.js" defer></script>
+    </head>
+    <body>
+        <div class="background-fade"></div>
+
+
+        <header>
+            <button class="menu-toggle">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+            </button>
+            <nav class="navbar">
+              <ul class="nav">
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../Community/Community.html">Community</a></li>
+                <li><a href="../Schedule/schedule.html">Schedule</a></li>
+                <li><a href="../Grading/grading.html">Grading</a></li>
+                <li><a href="../TKD wiki/tkd.html">TKD Wiki</a></li>
+                <li><a href="../Membership and Gear/membership.html">Membership and Gear</a></li>
+                <li><a href="../Archive/Archive.html">Archive</a></li>
+              </ul>
+            </nav>
+
+
+
+            <div class="top-bar">
+                <div class="nav-shown"> 
+                    <ul class="nav-shown"> 
+                        <li><a href="../../../index.html">Home</a></li>
+                        <li><a href="../Community/Community.html">Community</a></li>
+                        <li><a href="../Schedule/schedule.html">Schedule</a></li>
+                        <li><a href="../Grading/grading.html">Grading</a></li>
+                        <li><a href="../TKD wiki/tkd.html">TKD Wiki</a></li>
+                        <li><a href="../Membership and Gear/membership.html">Membership and Gear</a></li>
+                        <li><a href="../Archive/Archive.html">Archive</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            var menuToggle = document.querySelector('.menu-toggle');
+            var navbar = document.querySelector('.navbar');
+
+            menuToggle.addEventListener('click', function() {
+                navbar.classList.toggle('expanded');
+                navbar.classList.toggle('collapsed');
+            });
+            });
+        </script>
+
+       <div class="title">
+         <h1>Community</h1>
+       </div>
+       <div class="logo">
+        <img src="../../assets/gsLogo.png" alt="GS Logo">
+        <img src="../../assets/ualLogo.png" alt="UAL Logo">
+       </div>
+    
+    </body>
