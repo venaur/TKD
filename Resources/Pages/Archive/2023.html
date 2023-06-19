@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Archive</title>
+        <title>2022 - 2023</title>
         <link rel="stylesheet" href="../../CSS/styles.css">
-        <link rel="stylesheet" href="../../CSS/archive.css">
+        <link rel="stylesheet" href="../../CSS/2023.css">
         <script src="../../JavaScript/main.js" defer></script>
     </head>
     <body>
+
         <div class="background-fade"></div>
+
+
         <header>
             <button class="menu-toggle">
                     <span class="line"></span>
@@ -24,12 +27,15 @@
                 <li><a href="../Grading/grading.html">Grading</a></li>
                 <li><a href="../TKD wiki/tkd.html">TKD Wiki</a></li>
                 <li><a href="../Membership and Gear/membership.html">Membership and Gear</a></li>
+                <li><a href="../Archive/Archive.html">Archive</a></li>
               </ul>
             </nav>      
 
             <div class="top-bar">
                 <div class="nav-shown"> 
                     <ul class="nav-shown"> 
+                        <li><a href="../Archive/Archive.html">Back</a></li>
+
                         <li><a href="../../../index.html">Home</a></li>
                         <li><a href="../Schedule/schedule.html">Schedule</a></li>
                         <li><a href="../Community/Community.html">Community</a></li>
@@ -53,62 +59,19 @@
                 navbar.classList.toggle('collapsed');
             });
             });
+        </script> 
 
-            document.addEventListener('DOMContentLoaded', function() {
-            const projectVideos = document.querySelectorAll('video');
-
-            projectVideos.forEach((video) => {
-            video.addEventListener('click', () => {
-            // Retrieve the URL associated with the clicked video
-            const url = video.dataset.url;
-            
-            // Redirect to the specified URL
-            window.location.href = url;
-        });
-        });
-        });
-        </script>
-
-    <div class="title">
-        <h1>Archive</h1>
-    </div>
-
-    <div class="logo">
-        <img src="../../assets/gsLogo.png" alt="GS Logo">
-        <img src="../../assets/ualLogo.png" alt="UAL Logo">
-    </div>
-
-    <div class="page">
-        <!-- <div class="page-title">
-            2022 - 2023
-        </div> -->
-        <div class="video-container"> 
-            <div class="page-title">
-                2022 - 2023
-            </div>
-            <video data-url="../Archive/2023.html" autoplay loop muted>
-                <source src="../../assets/archive/2023/2023loop.mp4" type="video/mp4">
-              </video>
-
-
-
-            <!-- <video autoplay loop muted>
-                <source src="../../assets/archive/2023/2023loop.mp4" type="video/mp4">
-            </video>  -->
+        <div class="title">
+            <h1>2022 - 2023</h1>
         </div>
-        
-        <div class="video-container"> 
-            <div class="page-title">
-                2021 - 2022
-            </div>
-            <video autoplay loop muted>
-                <source src="../../assets/archive/2022/2022loop.mp4" type="video/mp4">
-            </video> 
+    
+        <div class="logo">
+            <img src="../../assets/gsLogo.png" alt="GS Logo">
+            <img src="../../assets/ualLogo.png" alt="UAL Logo">
         </div>
-
-    </div>
 
     <div class="bottom-bar"></div>
 
-</body>
+
+    </body>
 </html>
