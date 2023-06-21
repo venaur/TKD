@@ -1,0 +1,118 @@
+#Introduction{
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 10vh;
+    text-align: center;
+}
+
+
+
+p{
+    text-align: center;
+    margin-top: -3vh;
+    white-space: nowrap; 
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+ h2 {
+    margin-bottom: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ .half-yellow{
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 10vh;
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    background:linear-gradient(whitesmoke 50%, yellow 50%);
+    height: 3vh;
+    overflow: hidden;
+    
+}
+
+ .yellow  {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 12vh;
+    background-color:yellow;
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden;
+    
+}
+
+.half-green  {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 14vh;
+    background:linear-gradient(yellow 50%, green 50%);
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden;
+    
+}
+
+.green  {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 16vh;
+    background-color:green;
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.belt-text {
+    margin: auto;
+    width: 50%;   
+    position: relative;
+    top: 5vh;
+    text-align: left;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    margin-bottom: 0.5vh;
+}
+div h3{
+    text-align: center;
+}
+
+.vid-container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.video{
+    margin: 1.5vh;
+    position: relative;
+    left: -4vh;
+}
+
