@@ -2,7 +2,7 @@
     margin: auto;
     width: 50%;
     position: relative;
-    top: 10vh;
+    top: 7vh;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ p{
     margin: auto;
     width: 50%;
     position: relative;
-    top: 10vh;
+    top: 8vh;
     text-align: center;
     transition: 0.7s ease;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -44,7 +44,7 @@ p{
     margin: auto;
     width: 50%;
     position: relative;
-    top: 12vh;
+    top: 10vh;
     background-color:yellow;
     text-align: center;
     transition: 0.7s ease;
@@ -59,7 +59,7 @@ p{
     margin: auto;
     width: 50%;
     position: relative;
-    top: 14vh;
+    top: 12vh;
     background:linear-gradient(yellow 50%, green 50%);
     text-align: center;
     transition: 0.7s ease;
@@ -74,8 +74,98 @@ p{
     margin: auto;
     width: 50%;
     position: relative;
-    top: 16vh;
+    top: 14vh;
     background-color:green;
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.half-blue {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    color:goldenrod;
+    top: 16vh;
+    background: linear-gradient(green 50%, blue 50%);
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.blue  {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    color:goldenrod;
+    top: 18vh;
+    background-color:blue;
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.half-red {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    color:goldenrod;
+    top: 20vh;
+    background: linear-gradient(blue 50%, red 50%);
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.red  {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    color:goldenrod;
+    top: 22vh;
+    background-color:red;
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.half-black {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    color: goldenrod;
+    top: 24vh;
+    background: linear-gradient(red 50%, black 50%);
+    text-align: center;
+    transition: 0.7s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    height: 3vh;
+    overflow: hidden; 
+}
+
+.black  {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    color: goldenrod;
+    top: 26vh;
+    background-color:black;
     text-align: center;
     transition: 0.7s ease;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -94,6 +184,9 @@ p{
 
 ul {
     list-style: none;
+    text-align: center;
+    position: relative;
+    left: -2vh;
 
 }
 
